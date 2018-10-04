@@ -1,0 +1,83 @@
+.odliczanie {
+    background-color: black;
+    color: white;
+    font-size: 150px;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    animation-iteration-count: 1;
+    animation-name: zegar;
+
+}
+
+@keyframes zegar {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#id10 {
+    animation-duration: 1s;
+    z-index: 10;
+}
+
+#id9 {
+    animation-duration: 2s;
+    z-index: 20;
+}
+
+#id8 {
+    animation-duration: 3s;
+    z-index: 30;
+}
+
+#id7 {
+    animation-duration: 4s;
+    z-index: 40;
+}
+
+#id6 {
+    animation-duration: 5s;
+    z-index: 50;
+}
+
+#id5 {
+    animation-duration: 6s;
+    z-index: 60;
+}
+
+#id4 {
+    animation-duration: 7s;
+    z-index: 70;
+}
+
+#id3 {
+    animation-duration: 8s;
+    z-index: 80;
+}
+
+#id2 {
+    animation-duration: 9s;
+    z-index: 90;
+}
+
+#id1 {
+    animation-duration: 10s;
+    z-index: 100;
+}
+
+#id0 {
+    animation-duration: 11s;
+    z-index: 100;
+}
